@@ -1,0 +1,9 @@
+<suite name="SauceDemo">
+	<test name="Saucedemo functional Testing on firefox">
+	<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="base.Base"/>
+			<class name="functionalTesting.SauceDemoTesting"/>
+		</classes>
+	</test>	
+</suite>
